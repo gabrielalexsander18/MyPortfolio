@@ -8,40 +8,42 @@ export function Header() {
   const { pathname } = useLocation()
 
   return (
-    <Container>
-      <ContainerRigth>
-        <PageLink onClick={() => navigate('/')} isActive={pathname === '/'}>
-          Home
-        </PageLink>
+    <>
+      <Container>
+        <ContainerRigth>
+          <PageLink onClick={() => navigate('/')} isActive={pathname === '/'}>
+            Home
+          </PageLink>
 
-        <PageLink
-          onClick={() => navigate('/projetos')}
-          isActive={pathname.includes('/projetos')}
-        >
-          Projetos
-        </PageLink>
+          <PageLink
+            onClick={() => navigate('/projetos')}
+            isActive={pathname.includes('/projetos')}
+          >
+            Projetos
+          </PageLink>
 
-        <PageLink
-          onClick={() => navigate('/habilidades')}
-          isActive={pathname.includes('/habilidades')}
-        >
-          Habilidades
-        </PageLink>
+          <PageLink
+            onClick={() => navigate('/habilidades')}
+            isActive={pathname.includes('/habilidades')}
+          >
+            Habilidades
+          </PageLink>
 
-        <PageLink
-          onClick={() => navigate('/educacao')}
-          isActive={pathname.includes('/educacao')}
-        >
-          Educação
-        </PageLink>
+          <PageLink
+            onClick={() => navigate('/educacao')}
+            isActive={pathname.includes('/educacao')}
+          >
+            Educação
+          </PageLink>
 
-        <PageLink
-          onClick={() => navigate('/contatos')}
-          isActive={pathname.includes('/contatos')}
-        >
-          Contatos
-        </PageLink>
-      </ContainerRigth>
-    </Container>
+          <PageLink
+            onClick={() => navigate('/contatos')}
+            isActive={pathname.includes('/contatos')}
+          >
+            Contatos
+          </PageLink>
+        </ContainerRigth>
+      </Container>
+    </>
   )
 }

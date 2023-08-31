@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
+import px2vw from '../../utils/px2vw'
+
 export const ContainerButton = styled.button`
   width: 145px;
   height: 36px;
@@ -25,4 +27,12 @@ export const ContainerButton = styled.button`
   }
 
   margin: 0 auto 10px;
+
+  @media (max-width: 768px) {
+    width: 130px;
+  }
+
+  @media (max-width: 425px) {
+    width: ${px2vw(530)};
+  }
 `

@@ -5,6 +5,10 @@ Projeto do Portfólio pessoal somente em React:
 - Página de Educação: Mostra aonde fiz o curso e explica um pouco sobre a escola, qual software eu uso e como e minha mentalidade de trabalho.
 - Página dos Contatos: Tem todos os meu contatos e dois curricolos disponiveis para baixar.
 
+|||> Atualizações 
+- Responsividade em telas de: 1920px, 1366px, 1008px, 768px, 425px
+- Feito Header para Mobile.
+
 
 
 

@@ -1,11 +1,22 @@
 import styled from 'styled-components'
 
+import px2vw from '../../utils/px2vw'
+
 export const AllCardsProjects = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   justify-items: center;
   align-items: center;
+
+  @media (max-width: 1008px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: ${px2vw(60)};
+  }
+
+  @media (max-width: 425px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `
 
 export const CardProject = styled.div`
@@ -38,6 +49,24 @@ export const CardProject = styled.div`
     border: none;
     background: none;
   }
+
+  @media (max-width: 768px) {
+    width: 300px;
+    height: 500px;
+
+    div {
+      width: 300px;
+      height: 500px;
+    }
+  }
+
+  @media (max-width: 425px) {
+    width: ${px2vw(1200)};
+
+    div {
+      width: ${px2vw(1200)};
+    }
+  }
 `
 
 export const ImageProductEdit = styled.img`
@@ -46,6 +75,16 @@ export const ImageProductEdit = styled.img`
   border-radius: 20px 20px 2px 2px;
 
   margin-bottom: 20px;
+
+  @media (max-width: 768px) {
+    width: 300px;
+
+    margin-bottom: 15px;
+  }
+
+  @media (max-width: 425px) {
+    width: ${px2vw(1200)};
+  }
 `
 
 export const Name = styled.h2`
@@ -59,6 +98,10 @@ export const Line = styled.line`
   width: 270px;
   height: 2px;
   border: 0.5px solid #bababa;
+
+  @media (max-width: 425px) {
+    width: ${px2vw(1000)};
+  }
 `
 
 export const Resume = styled.p`
