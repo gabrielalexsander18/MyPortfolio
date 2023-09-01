@@ -10,18 +10,17 @@
 
 ### Sobre o projeto
 
-Este projeto foi feito com muita dedicação, tempo e carinho para expor os meu trabalhos desde o inicio até o momento, além de ter os meus contatos, um pouco sobre mim, sobre o curso e as tecnologias aprendidas. 
-Foi feito inteiramente em React.js junto de Styled-components, tendo responsividade desde 1920px a 425px ou menores. 
+Este projeto foi feito com muita dedicação, tempo e carinho para expor os meus trabalhos desde o início até o momento, além de ter os meus contatos, um pouco sobre mim, sobre o curso e as tecnologias aprendidas. Foi feito inteiramente em React.js junto de Styled-components, tendo responsividade desde 1920px a 425px ou menores.
 <br>
 <br>
 
 #### Conteúdos
 
-- Página inicial: Tem um pouco sobre mim.
-- Página de projetos: Tem todos projetos feitos por mim para fins de aprendizagem e projetos pessoais, explicando sobre um pouco de cada um com os frameworks utilizados, etc.
-- Página de habilidades: Mostra todas as habilidades aprendidas até o momento.
-- Página de Educação: Mostra aonde fiz o curso e explica um pouco sobre a escola, qual software eu uso e como e minha mentalidade de trabalho.
-- Página dos Contatos: Tem todos os meu contatos e dois curricolos disponiveis para baixar.
+- Página inicial: um pouco sobre mim.
+- Página de projetos: todos projetos feitos por mim para fins de aprendizagem e projetos pessoais, explicando sobre um pouco de cada um com os frameworks utilizados, etc.
+- Página de habilidades: habilidades já aprendidas até o momento.
+- Página de Educação: onde fiz o curso e explica um pouco sobre a escola, qual software eu uso e como é minha mentalidade de trabalho.
+- Página dos Contatos: todos os meus contatos e dois currículos disponíveis para baixar.
 <br>
 <br>
 
