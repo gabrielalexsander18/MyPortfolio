@@ -33,10 +33,7 @@ export function CardsProjects() {
         return (
           <CardProject key={item.id}>
             {/* Project Image */}
-            <ImageProductEdit
-              src={`/img/${item.name.toLocaleLowerCase()}.png`}
-              alt={item.name}
-            />
+            <ImageProductEdit src={`/img/${item.name}.png`} alt={item.name} />
 
             {/* Stacks Icon */}
             <ContainerStackIcon>
