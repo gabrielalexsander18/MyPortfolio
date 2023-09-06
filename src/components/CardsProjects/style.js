@@ -38,9 +38,10 @@ export const CardProject = styled.div`
     box-shadow: -25px 20px 45px rgba(50, 50, 50, 0.5);
   }
 
-  div {
+  .div {
     display: flex;
     align-items: flex-end;
+    justify-content: space-around;
 
     width: 340px;
     height: 480px;
@@ -51,39 +52,69 @@ export const CardProject = styled.div`
   }
 
   @media (max-width: 768px) {
-    width: 300px;
+    width: 303px;
     height: 500px;
 
-    div {
-      width: 300px;
+    .div {
+      width: 303px;
       height: 500px;
     }
   }
 
   @media (max-width: 425px) {
-    width: ${px2vw(1200)};
+    width: ${px2vw(1365)};
 
-    div {
-      width: ${px2vw(1200)};
+    .div {
+      width: ${px2vw(1365)};
     }
   }
 `
 
 export const ImageProductEdit = styled.img`
-  position: relative;
   width: 340px;
   border-radius: 20px 20px 2px 2px;
 
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 
   @media (max-width: 768px) {
-    width: 300px;
+    width: 303px;
 
-    margin-bottom: 15px;
+    margin-bottom: 5px;
   }
 
   @media (max-width: 425px) {
-    width: ${px2vw(1200)};
+    width: ${px2vw(1365)};
+  }
+`
+
+export const ContainerStackIcon = styled.div`
+  display: flex;
+  flex-direction: row;
+  /* position: relative; */
+  align-items: center;
+  justify-content: flex-start;
+
+  /* width: 340px;
+  height: 480px;
+  position: absolute; */
+
+  border: none;
+  background: none;
+
+  .stack_Icon {
+    height: 25px;
+
+    margin-bottom: 5px;
+    margin-left: 7px;
+
+    @media (max-width: 768px) {
+      .stack_Icon {
+        height: 20px;
+
+        margin-bottom: 5px;
+        margin-left: 5px;
+      }
+    }
   }
 `
 

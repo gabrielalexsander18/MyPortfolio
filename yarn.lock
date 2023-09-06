@@ -5221,6 +5221,11 @@ get-symbol-description@^1.0.0:
     call-bind "^1.0.2"
     get-intrinsic "^1.1.1"
 
+github-automated-repos@^1.0.25:
+  version "1.0.25"
+  resolved "https://registry.yarnpkg.com/github-automated-repos/-/github-automated-repos-1.0.25.tgz#71eca320085d943829b0ccaab342ae382622b186"
+  integrity sha512-AmXLXouYoE5KW3tL1GB6UCKzWyE+6tJ3jX6YtsEXpzTzBkhrrABYsPgeiWECreEAyWhmOKkXkguEiSx4t1Me9A==
+
 glob-parent@^5.1.2, glob-parent@~5.1.2:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-5.1.2.tgz#869832c58034fe68a4093c17dc15e8340d8401c4"
