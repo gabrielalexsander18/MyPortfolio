@@ -40,12 +40,26 @@ export const LogoPortfolioEdit = styled.img`
   width: 270px;
   background: none;
 
+  &:hover {
+    width: 300px;
+    rotate: -10deg;
+    transition: 0.7s;
+  }
+
   @media (max-width: 768px) {
     width: ${px2vw(350)};
+
+    &:hover {
+      width: ${px2vw(380)};
+    }
   }
 
   @media (max-width: 425px) {
     width: ${px2vw(300)};
+
+    &:hover {
+      width: ${px2vw(330)};
+    }
   }
 `
 
