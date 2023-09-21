@@ -37,7 +37,10 @@ export function Education() {
             <LogoDevClubEdit src={LogoDevClub} alt="logo-dev-club" />
           </ContainerLeft>
           <ContainerRigth>
-            <h2>DevClub Full-Stack</h2>
+            <h2>
+              <b className="dev">Dev</b>
+              <b className="club">Club</b> Full-Stack
+            </h2>
 
             <p>
               Neste curso é para pessoas que estão começando na área e querem

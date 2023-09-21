@@ -67,6 +67,14 @@ export const ContainerRigth = styled.div`
     margin-bottom: 20px;
   }
 
+  .dev {
+    color: #adb521;
+  }
+
+  .club {
+    color: #874e95;
+  }
+
   p {
     font-size: 20px;
 
