@@ -8,7 +8,7 @@ import {
   ContainerRigth,
   EmailIconEdit,
   GitHubIconEdit,
-  InstagramIconEdit,
+  // InstagramIconEdit,
   WhatsAppIconEdit,
   LinkedInIconEdit
 } from './style'
@@ -46,13 +46,13 @@ export function Contacts() {
           >
             <WhatsAppIconEdit sx={{ fontSize: 40 }} /> <p>WhatsApp</p>
           </a>
-          <a
+          {/* <a
             href="https://www.instagram.com/biel_dfst05/"
             target="_blank"
             rel="noreferrer"
           >
             <InstagramIconEdit sx={{ fontSize: 40 }} /> <p>Instagram</p>
-          </a>
+          </a> */}
           <a
             href="mailto:gabrielfaria257@gmail.com"
             target="_blank"
