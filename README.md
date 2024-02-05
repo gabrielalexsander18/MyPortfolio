@@ -25,7 +25,8 @@ Este projeto foi feito com muita dedicação, tempo e carinho para expor os meus
 <br>
 
 ### :loudspeaker: Atualizações <br>
-- colocado animação simples<br>
+- colocado animação de digitação na pagina home
+<br>
 
 <br>
           
