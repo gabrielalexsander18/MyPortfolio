@@ -11,10 +11,10 @@ export function AllSkills() {
   return (
     <>
       <Container>
-        <Img
+        {/* <Img
           src={`https://skillicons.dev/icons?i=typescript`}
           alt="logo_typescript"
-        />
+        /> */}
         <Img
           src={`https://skillicons.dev/icons?i=javascript`}
           alt="logo_javascript"

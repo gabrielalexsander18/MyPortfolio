@@ -90,13 +90,9 @@ export const ImageProductEdit = styled.img`
 export const ContainerStackIcon = styled.div`
   display: flex;
   flex-direction: row;
-  /* position: relative; */
+
   align-items: center;
   justify-content: flex-start;
-
-  /* width: 340px;
-  height: 480px;
-  position: absolute; */
 
   border: none;
   background: none;

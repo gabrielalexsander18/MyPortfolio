@@ -1,6 +1,6 @@
 import React from 'react'
 
-import LogoPortfolio from '../../assets/logo-portfolio.png'
+import LogoPortfolio from '../../assets/logo-portfolio.svg'
 import { Header } from '../../components'
 import {
   LogoPortfolioEdit,

@@ -2,7 +2,7 @@ import React from 'react'
 
 import Code from '../../assets/Background.png'
 import LogoDevClub from '../../assets/DevClub.png'
-import LogoPortfolio from '../../assets/logo-portfolio.png'
+import LogoPortfolio from '../../assets/logo-portfolio.svg'
 import LogoVsCode from '../../assets/VsCode.png'
 import { Header } from '../../components'
 import {

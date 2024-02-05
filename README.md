@@ -10,7 +10,7 @@
 
 ### Sobre o projeto
 
-Este projeto foi feito com muita dedicação, tempo e carinho para expor os meus trabalhos desde o início até o momento, além de ter os meus contatos, um pouco sobre mim, sobre o curso e as tecnologias aprendidas. Foi feito inteiramente em React.js junto de Styled-components, tendo responsividade desde 1920px a 425px ou menores.
+Este projeto foi feito com muita dedicação, tempo e carinho para expor os meus trabalhos desde o início até o momento, além de ter os meus contatos, um pouco sobre mim, sobre o curso e as tecnologias aprendidas. Foi feito inteiramente em React.js junto de Styled-components, tendo responsividade desde monitores grandes,pequenos a celulares.
 <br>
 <br>
 
@@ -25,8 +25,8 @@ Este projeto foi feito com muita dedicação, tempo e carinho para expor os meus
 <br>
 
 ### :loudspeaker: Atualizações <br>
-- Responsividade em telas de: 1920px, 1366px, 1008px, 768px, 425px <br>
-- Feito Header para Mobile.
+- colocado animação simples<br>
+
 <br>
           
 ### Linguagens e ferramentas utilizadas

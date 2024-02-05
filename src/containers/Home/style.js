@@ -81,14 +81,6 @@ export const ContainerRigth = styled.div`
   max-width: 750px;
   color: #ffffff;
 
-  .gabriel {
-    margin-bottom: 25px;
-  }
-
-  .entusiasta {
-    margin: 25px 0;
-  }
-
   h2 {
     font-size: 50px;
     color: #8b0000;
@@ -96,7 +88,7 @@ export const ContainerRigth = styled.div`
 
   p {
     font-size: 20px;
-    margin-bottom: 30px;
+    margin: 25px 0 30px;
   }
 
   h5 {
@@ -106,38 +98,13 @@ export const ContainerRigth = styled.div`
   @media (max-width: 1008px) {
     max-width: ${px2vw(835)};
 
-    .gabriel {
-      margin-bottom: 25px;
-    }
-
-    .entusiasta {
-      margin: 25px 0;
-    }
-
     h2 {
       font-size: 45px;
-    }
-
-    p {
-      font-size: 20px;
-      margin-bottom: 30px;
-    }
-
-    h5 {
-      font-size: 15px;
     }
   }
 
   @media (max-width: 768px) {
     max-width: ${px2vw(835)};
-
-    .gabriel {
-      margin-bottom: 20px;
-    }
-
-    .entusiasta {
-      margin: 20px 0;
-    }
 
     h2 {
       font-size: 35px;
@@ -145,7 +112,7 @@ export const ContainerRigth = styled.div`
 
     p {
       font-size: 17px;
-      margin-bottom: 20px;
+      margin: 20px 0;
     }
 
     h5 {
@@ -155,14 +122,6 @@ export const ContainerRigth = styled.div`
 
   @media (max-width: 425px) {
     min-width: ${px2vw(1200)};
-
-    .gabriel {
-      margin-bottom: 20px;
-    }
-
-    .entusiasta {
-      margin: 20px 0;
-    }
 
     h2 {
       font-size: ${px2vw(125)};
@@ -182,6 +141,12 @@ export const ContainerRigth = styled.div`
 export const Line = styled.div`
   height: 2px;
   border: 0.5px solid #bababa;
+
+  margin: 25px 0;
+
+  @media (max-width: 768px) {
+    margin: 20px 0;
+  }
 
   @media (max-width: 425px) {
     width: ${px2vw(1000)};

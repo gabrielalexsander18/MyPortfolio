@@ -1,7 +1,7 @@
 import React from 'react'
 
-import LogoPortfolio from '../../assets/logo-portfolio.png'
-import { Header } from '../../components'
+import LogoPortfolio from '../../assets/logo-portfolio.svg'
+import { EfeitoDigitacao, Header } from '../../components'
 import {
   Container,
   LogoPortfolioEdit,
@@ -19,10 +19,13 @@ export function Home() {
           <LogoPortfolioEdit src={LogoPortfolio} alt="logo-gabriel" />
         </ContainerLeft>
         <ContainerRigth>
-          <h2>Olá,</h2>
-          <h2 className="gabriel">sou o Gabriel Alexsander</h2>
+          <EfeitoDigitacao>Olá,</EfeitoDigitacao>
+          <EfeitoDigitacao>sou o Gabriel Alexsander</EfeitoDigitacao>
+
           <Line></Line>
-          <h2 className="entusiasta">Entusiasta da programação</h2>
+
+          <EfeitoDigitacao>Entusiasta da programação</EfeitoDigitacao>
+
           <p>
             Sou um apaixonado desenvolvedor de software com um forte interesse
             em tecnologia e soluções inovadoras. Ao longo dos anos, tenho me
